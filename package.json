@@ -1,0 +1,23 @@
+{
+    "name": "mgdark-theme",
+    "displayName": "mgdark-theme",
+    "description": "Soft dark theme for vscode",
+    "version": "0.0.1",
+    "repository": "https://github.com/kissa1001/mg-dark-theme",
+    "publisher": "kissa1001",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MGDark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MGDark Theme-color-theme.json"
+            }
+        ]
+    }
+}
